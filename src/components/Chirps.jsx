@@ -1,14 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class Chirps extends Component {
-  render() {
-    return (
-      <div className='msg'>
-        <h3>this.state.name</h3>
-        <p>this.state.message</p>
-      </div>
-    );
-  }
+let Chirps = props => {
+  return (
+    <div className='msg'>
+      <h3>{props.chirp.name}</h3>
+      <p>{props.chirp.message}</p>
+    </div>
+  );
 }
 
 export default Chirps;
