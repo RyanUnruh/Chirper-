@@ -7,19 +7,19 @@ export class App extends Component {
     this.state = {
       chirps: [
         {
-          name: 'Jessica Jones',
+          name: '@Jessica Jones',
           message: 'look out for purple man'
         },
         {
-          name: 'Jon Hamm',
+          name: '@Jon Hamm',
           message: 'Lucky strike man'
         },
         {
-          name: 'Megan Markle',
+          name: '@Megan Markle',
           message: 'Hello there'
         },
       ],
-      name: "",
+      name: "@",
       message: ""
     };
   }
